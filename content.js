@@ -1,4 +1,4 @@
-alert("dsfads")
+alert("Running")
 
 
 chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
@@ -8,6 +8,6 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
     sendResponse({})
     return true
   }
-  
+
   return true
 });
